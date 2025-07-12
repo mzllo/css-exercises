@@ -1,4 +1,4 @@
-.one, .three, .five {
+.one, .three, .five { /* You should have called this '.odd' and chained it with '.font-size' for the third element! Make sure you READ the self checks!!*/
     background-color: #f08080;
     font-family: Verdana, "DejaVu Sans", sans-serif;
 }
@@ -8,11 +8,11 @@
     font-size: 36px;
 }
 
-.three {
+.three { /*This shouldve been '.font-size'*/
     font-size: 24px;
 }
 
-#four {
+#four { /*Shouldve done this without the font-size declaration. Instead, add '.font-size' class in html doc, fourth element.*/
     background-color: #90ee90;
     font-size: 24px;
     font-weight: 700;
