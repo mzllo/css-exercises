@@ -1,4 +1,4 @@
-.one, .three, .five { /* You should have called this '.odd' and chained it with '.font-size' for the third element! Make sure you READ the self checks!!*/
+.one, .three, .five { /* You should have called this '.odd' and added it to the 'font-size' class in thee third element. Make sure you READ the self checks!!*/
     background-color: #f08080;
     font-family: Verdana, "DejaVu Sans", sans-serif;
 }
@@ -12,7 +12,7 @@
     font-size: 24px;
 }
 
-#four { /*Shouldve done this without the font-size declaration. Instead, add '.font-size' class in html doc, fourth element.*/
+#four { /*Shouldve done this without the font-size declaration. Instead, add: class="font-size" in html file, fourth element.*/
     background-color: #90ee90;
     font-size: 24px;
     font-weight: 700;
