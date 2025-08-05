@@ -62,12 +62,11 @@ ul {
 
 .right-side {
   display:flex;
-  gap: 12px;
+  gap: 16px;
 
 }
 
 .left-side{
   display:flex;
-  justify-content: space-around;
 
 }
