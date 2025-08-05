@@ -17,7 +17,20 @@ img {
 
 .box{
   display: flex;
+  justify-content: center;
+  gap: 52px;
+  align-items: baseline;
 }
+
+.item{
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 200px;
+  text-align: center;
+
+}
+
 
 /* do not edit this footer */
 .footer {
