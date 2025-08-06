@@ -9,6 +9,7 @@ body {
 
 img {
   width: 600px;
+  margin-bottom: 12px;
 }
 
 button {
@@ -16,6 +17,7 @@ button {
   border: none;
   border-radius: 8px;
   background: #eee;
+  padding: 7px;
 }
 
 input {
@@ -23,11 +25,14 @@ input {
   border-radius: 16px;
   padding: 8px 24px;
   width: 400px;
+  margin-bottom: 12px;
+
 }
 
 .header, .footer{
   display: flex;
   justify-content: space-between;
+  padding: 10px
 
 }
 
@@ -40,6 +45,17 @@ input {
   gap: 18px;
   list-style-type: none;
   text-decoration: none;
+  
+}
+
+.content{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex:1;
+  
+  
 
 }
 
